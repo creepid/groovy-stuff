@@ -15,4 +15,3 @@ def words = ['long string', 'medium', 'short', 'tiny']
 
 assert 'medium' == words.find (sizeUpTo6)
 assert 'short' == words.find (filter5.&sizeUpTo)
-
